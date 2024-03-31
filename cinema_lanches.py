@@ -6,11 +6,11 @@ class CinemaLanches:
         self.refrigerante_ready = False
 
     async def getPipoca(self):
-        await asyncio.sleep(30)  # Simula o tempo de preparo da pipoca
+        await asyncio.sleep(3)  # Simula o tempo de preparo da pipoca
         self.pipoca_ready = True
 
     async def getRefrigerante(self):
-        await asyncio.sleep(20)  # Simula o tempo de preparo do refrigerante
+        await asyncio.sleep(2)  # Simula o tempo de preparo do refrigerante
         self.refrigerante_ready = True
 
     async def lanchePronto(self):
